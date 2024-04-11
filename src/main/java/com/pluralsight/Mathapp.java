@@ -5,15 +5,27 @@ public class Mathapp {
         int bobSalary = 600;
         int garySalary = 300;
         int highestSalary = Math.max(bobSalary, garySalary);
-         System.out.println(highestSalary);
+         System.out.println("The highest Salary is " + highestSalary);
 
-        int carPrice = 1000;
-        int truckPrice = 5000;
-        int lowerPrice = Math.min(carPrice, truckPrice);
-         System.out.println(lowerPrice);
+        /**
+         * 2. Find and display the smallest of two variables named CarPrice and TruckPrice. Set thr Variables to any value we want
+         */
 
-        float circleRadius =7.25f;
-        float circleArea = (3.14f) * circleRadius^2;
-                System.out.println(circleArea);
+        double carPrice, truckPrice;
+
+        truckPrice = 50000;
+        carPrice = 35000;
+
+         System.out.println("Minimum car price: " + Math.min(carPrice, truckPrice));
+
+        /**
+         * 3 find and displaay the area of a circle whose radius is 7.25
+         */
+
+        double radius = 7.25;
+        double areaOfCircle = Math.PI * Math.pow(radius, 2);
+
+        System.out.println("Area of a circle with " + radius "is" + areaOfCircle);
+
     }
 }
