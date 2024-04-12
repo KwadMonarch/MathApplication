@@ -25,7 +25,7 @@ public class Mathapp {
         double radius = 7.25;
         double areaOfCircle = Math.PI * Math.pow(radius, 2);
 
-        System.out.println("Area of a circle with " + radius "is" + areaOfCircle);
+        System.out.println("Area of a circle with radius " + radius); System.out.print("is " +  areaOfCircle);
 
     }
 }
